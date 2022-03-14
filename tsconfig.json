@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "jsx": "preserve",
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "lib": ["esnext", "dom"],
+      "noUnusedLocals": true,
+      "noErrorTruncation": true,
+      "baseUrl": ".",
+      "types": [
+        "vite/client",
+        "vuetify",
+      ],
+      "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/vite/types",
+        "./node_modules/vuetify/types",
+      ],
+      "paths": {
+        "@/*": [
+          "./src/*"
+        ],
+      },
+    },
+    "include": [
+      "./**/*.ts",
+      "./**/*.tsx",
+      "./**/*.vue",
+      "vite.config.ts",
+      "deploy.ts"
+    ],
+  }
+  
