@@ -5,6 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     VApp: typeof import('vuetify/lib')['VApp']
+    VBtn: typeof import('vuetify/lib')['VBtn']
     VCard: typeof import('vuetify/lib')['VCard']
     VCardTitle: typeof import('vuetify/lib')['VCardTitle']
     VDialog: typeof import('vuetify/lib')['VDialog']

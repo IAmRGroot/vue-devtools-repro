@@ -1,3 +1,4 @@
 node_modules
 dist
 out
+components.d.ts

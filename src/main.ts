@@ -1,8 +1,13 @@
 import Vue from 'vue';
+import VueCompositionAPI from '@vue/composition-api';
+import Vuetify from 'vuetify/lib';
+
+Vue.use(VueCompositionAPI);
+Vue.use(Vuetify);
+
 import App from '@/App.vue';
-import vuetify from './vuetify';
 
 new Vue({
-    vuetify,
+    vuetify: new Vuetify(),
     render: h => h(App),
 }).$mount('#app');
